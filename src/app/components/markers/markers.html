@@ -1,0 +1,11 @@
+<ul class="list-group" >
+  <li ng-repeat="marker in info" class="list-group-item">
+    {{marker.title}}
+    <button ng-show="marker.not_confirmed" ng-click="confirm($index)">
+        <span class="glyphicon glyphicon-ok"></span>
+    </button>
+    <button ng-click="remove($index)">
+        <span class="glyphicon glyphicon-remove"></span>
+    </button>
+  </li>
+</ul>

@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row">
+    <navbar></navbar>
+  </div>
+  <div class="row-fluid">
+    <div class="col-xs-10">            
+      <map center="{{map.center.latitude}}, {{map.center.longitude}}" zoom="{{map.zoom}}">
+        <marker ng-repeat="marker in markers"
+                position="{{marker.position.latitude}}, {{marker.position.longitude}}" 
+                title="{{marker.title}}"
+                draggable="{{marker.not_confirmed}}">
+        </marker>
+      </map>    
+    </div>
+    <div class="col-xs-2">
+      <button ng-click="openModal()" class="btn btn-primary">Add New Address</button>
+      <markers info="markers"></markers>
+    </div>
+  </div>
+</div>
