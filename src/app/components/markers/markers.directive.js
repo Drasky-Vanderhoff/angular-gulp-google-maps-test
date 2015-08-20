@@ -22,7 +22,7 @@
             position: $scope.info[$index].position,
             title: $scope.info[$index].title,
             not_confirmed: false
-          } 
+          };
           $scope.info.splice($index,1);  
           $scope.info.push(data);     
         };

@@ -21,11 +21,9 @@
           title: address_str,
           not_confirmed: true
         });
-        console.log(new_marker);
       },function (error) {
         alert(error);
       });
-      console.log($scope.markers);
     };
     geocoding.getPosition("Argentina").then(function (data) {
       $scope.map = { center: {latitude: data.G, longitude: data.K}, zoom: 5 };
