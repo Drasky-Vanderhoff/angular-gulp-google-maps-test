@@ -1,0 +1,12 @@
+ul.list-group
+    li(ng-repeat="marker in info").list-group-item
+        {{marker.title}}
+        button(type="button",
+            ng-click="confirm($index)",
+            ng-show="marker.not_confirmed"
+            ).btn.btn-default
+            span.glyphicon.glyphicon-ok
+        button(type="button",
+            ng-click="remove($index)"
+            ).btn.btn-default
+            span.glyphicon.glyphicon-remove
