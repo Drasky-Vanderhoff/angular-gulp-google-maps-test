@@ -44,5 +44,5 @@ For more information please refer to [generator-gulp-angular's user guide](https
 
 Remember that is just a demo to show how to combine google maps and angular.
 
-    + Markers won't mantain a new assigned position after being applied.
-    + In some odd cases, the first marker that's being created will not be displayed. Be sure to be precise with the name of the place you want the maker to appear ( for example, there is a Córdoba that is in Spain).
+  + Markers won't mantain a new assigned position after being applied.
+  + In some odd cases, the first marker that's being created will not be displayed. Be sure to be precise with the name of the place you want the maker to appear ( for example, there is a Córdoba that is in Spain).
