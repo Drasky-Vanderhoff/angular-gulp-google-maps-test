@@ -17,7 +17,7 @@
     $scope.addNewMarker = function (address_str) {
       geocoding.getPosition(address_str).then(function (data) {
         var new_marker = $scope.markers.push({
-          position: {latitude: data.G, longitude: data.K}, 
+          position: {latitude: data.H, longitude: data.L}, 
           title: address_str,
           not_confirmed: true
         });
@@ -26,7 +26,8 @@
       });
     };
     geocoding.getPosition("Argentina").then(function (data) {
-      $scope.map = { center: {latitude: data.G, longitude: data.K}, zoom: 5 };
+      console.log(data);
+      $scope.map = { center: {latitude: data.H, longitude: data.L}, zoom: 5 };
     },function (error) {
       alert(error);
     });
