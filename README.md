@@ -1,5 +1,7 @@
 # angular-gulp-google-maps-test
 
+[![Code Climate](https://codeclimate.com/github/Drasky-Vanderhoff/angular-gulp-google-maps-test/badges/gpa.svg)](https://codeclimate.com/github/Drasky-Vanderhoff/angular-gulp-google-maps-test) [![Test Coverage](https://codeclimate.com/github/Drasky-Vanderhoff/angular-gulp-google-maps-test/badges/coverage.svg)](https://codeclimate.com/github/Drasky-Vanderhoff/angular-gulp-google-maps-test/coverage)
+
 A combination of [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) + Google Maps Api using multiple 3rd party angular directives.
 
 ### Install
